@@ -129,27 +129,10 @@ GenerateClassCluster=0
 DocumentUniqueId=GWNBFOWW
 
 [Document6]
-DocumentPath=CyberDeck.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NOVCKFHU
-
-[Document7]
 DocumentPath=USB_hub.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=200
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
@@ -161,6 +144,74 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FMUXKEOA
+
+[Document7]
+DocumentPath=RaspiConnection.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WWMAALGN
+
+[Document8]
+DocumentPath=Backside.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OHYCLIEV
+
+[Document9]
+DocumentPath=USBPower.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AUMGZNUS
+
+[Document10]
+DocumentPath=CyberDeck.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=AECCCEE8-8519-4872-A7D7-03D1ADBEA263
@@ -199,56 +250,40 @@ Path=C:\Users\Public\Documents\Altium\AD18\Library\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Pr_PCB_Revision
-Value=00
-
-[Parameter2]
-Name=Pr_PCB_Nr
-Value=Azteca 300
-
-[Parameter3]
-Name=Pr_Geprueft_Datum
-Value=
-
-[Parameter4]
-Name=Pr_Geprueft
-Value=
-
-[Parameter5]
-Name=Pr_Freig_Serie
-Value=
-
-[Parameter6]
-Name=Pr_Freig_Proto
-Value=
-
-[Parameter7]
-Name=Pr_Freig_Entw
-Value=X
-
-[Parameter8]
-Name=Pr_Firma
-Value=Microtronica
-
-[Parameter9]
-Name=Pr_Erstellt_Datum
-Value=21.08.2018
-
-[Parameter10]
-Name=Pr_Erstellt
-Value=TB
-
-[Parameter11]
-Name=Pr_Bezeichnung
+Name=Title
 Value=Mainboard
 
-[Parameter12]
-Name=Pr_Artikel_Revision
+[Parameter2]
+Name=Revision
 Value=00
 
-[Parameter13]
-Name=Pr_Artikel_Nr
+[Parameter3]
+Name=Organization
+Value=Microtronica
+
+[Parameter4]
+Name=DrawnBy
+Value=TB
+
+[Parameter5]
+Name=DocumentNumber
 Value=Azteca 300
+
+[Parameter6]
+Name=Date
+Value=21.08.2018
+
+[Parameter7]
+Name=Address2
+Value=Tillo Bosshart
+
+[Parameter8]
+Name=Address1
+Value=OSHW
+
+[Parameter9]
+Name=
+Value=
 
 [Configuration1]
 Name=Sources
@@ -377,7 +412,7 @@ OutputDir=Project Outputs for Template
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=An OneNote 2010 senden
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -483,7 +518,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -571,7 +606,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=An OneNote 2010 senden
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -593,7 +628,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=An OneNote 2010 senden
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -665,7 +700,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -724,7 +759,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=An OneNote 2010 senden
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -904,7 +939,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=An OneNote 2010 senden
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -948,7 +983,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=An OneNote 2010 senden
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -999,7 +1034,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=An OneNote 2010 senden
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
