@@ -52,7 +52,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ASUGOTQI
 
 [Document2]
 DocumentPath=CyberDeck1\CyberDeck.SCHLIB
@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UIVZFIYF
 
 [SearchPath1]
 Path=C:\Users\tillo\Documents\cyberDeckAltium\CyberDeck1\*.*
