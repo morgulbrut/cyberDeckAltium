@@ -218,7 +218,12 @@ UniqueID=AECCCEE8-8519-4872-A7D7-03D1ADBEA263
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=5
+Variation1=Designator=X402|UniqueId=\BCIKPLHI|Kind=1|AlternatePart= 
+Variation2=Designator=X403|UniqueId=\LGGXXRBS|Kind=1|AlternatePart= 
+Variation3=Designator=X102|UniqueId=\GAUWSZWP|Kind=1|AlternatePart= 
+Variation4=Designator=X105|UniqueId=\STQVKHDE|Kind=1|AlternatePart= 
+Variation5=Designator=X106|UniqueId=\PDTWMLMK|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
