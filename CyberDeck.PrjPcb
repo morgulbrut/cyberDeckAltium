@@ -218,12 +218,13 @@ UniqueID=AECCCEE8-8519-4872-A7D7-03D1ADBEA263
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=6
 Variation1=Designator=X402|UniqueId=\BCIKPLHI|Kind=1|AlternatePart= 
 Variation2=Designator=X403|UniqueId=\LGGXXRBS|Kind=1|AlternatePart= 
 Variation3=Designator=X102|UniqueId=\GAUWSZWP|Kind=1|AlternatePart= 
 Variation4=Designator=X105|UniqueId=\STQVKHDE|Kind=1|AlternatePart= 
 Variation5=Designator=X106|UniqueId=\PDTWMLMK|Kind=1|AlternatePart= 
+Variation6=Designator=X404|UniqueId=\OBZFDXDY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -413,7 +414,7 @@ OutputDir=Project Outputs for Template
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -519,7 +520,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -607,7 +608,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -629,7 +630,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -701,7 +702,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -760,7 +761,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -940,7 +941,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -984,7 +985,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1035,7 +1036,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M6026cdn KX
+TargetPrinter=Brother MFC-J5620DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
