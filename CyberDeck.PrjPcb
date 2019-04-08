@@ -256,56 +256,56 @@ Path=C:\Users\Public\Documents\Altium\AD18\Library\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Pr_PCB_Revision
-Value=00
+Name=Pr_Artikel_Nr
+Value=294ab2ad
 
 [Parameter2]
-Name=Pr_PCB_Nr
-Value=b2cd634f 
+Name=Pr_Artikel_Revision
+Value=00
 
 [Parameter3]
-Name=Pr_Geprueft_Datum
-Value=
+Name=Pr_Bezeichnung
+Value=CyberDeck Motherboard
 
 [Parameter4]
-Name=Pr_Geprueft
-Value=
+Name=Pr_Erstellt
+Value=morgulbrut
 
 [Parameter5]
-Name=Pr_Freig_Serie
-Value=
+Name=Pr_Erstellt_Datum
+Value=07.03.2019
 
 [Parameter6]
-Name=Pr_Freig_Proto
-Value=
+Name=Pr_Firma
+Value=Ono-Sendai
 
 [Parameter7]
 Name=Pr_Freig_Entw
 Value=X
 
 [Parameter8]
-Name=Pr_Firma
-Value=Ono-Sendai
+Name=Pr_Freig_Proto
+Value=
 
 [Parameter9]
-Name=Pr_Erstellt_Datum
-Value=07.03.2019
+Name=Pr_Freig_Serie
+Value=
 
 [Parameter10]
-Name=Pr_Erstellt
-Value=morgulbrut
+Name=Pr_Geprueft
+Value=
 
 [Parameter11]
-Name=Pr_Bezeichnung
-Value=CyberDeck Motherboard
+Name=Pr_Geprueft_Datum
+Value=
 
 [Parameter12]
-Name=Pr_Artikel_Revision
-Value=00
+Name=Pr_PCB_Nr
+Value=b2cd634f
 
 [Parameter13]
-Name=Pr_Artikel_Nr
-Value=294ab2ad
+Name=Pr_PCB_Revision
+Value=00
 
 [Configuration1]
 Name=Sources
